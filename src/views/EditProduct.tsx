@@ -2,7 +2,7 @@ import { Link, Form, useActionData, ActionFunctionArgs, redirect, LoaderFunction
 import ErrorMessage from "../components/ErrorMessage"
 import { getProductById, updateProduct } from "../services/ProductService"
 import { Product } from "../types"
-import ProductForm from "../components/productForm"
+import ProductForm from "../components/ProductForm"
 
 export async function loader({params}: LoaderFunctionArgs){
     if(params.id !== undefined){

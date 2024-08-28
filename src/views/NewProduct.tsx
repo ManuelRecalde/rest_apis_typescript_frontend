@@ -1,7 +1,7 @@
 import { Link, Form, useActionData, ActionFunctionArgs, redirect } from "react-router-dom"
 import ErrorMessage from "../components/ErrorMessage"
 import { addProduct } from "../services/ProductService"
-import ProductForm from "../components/productForm"
+import ProductForm from "../components/ProductForm"
 
 export async function action({request} : ActionFunctionArgs) {
 

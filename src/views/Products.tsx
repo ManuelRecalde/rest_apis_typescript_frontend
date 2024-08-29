@@ -22,7 +22,7 @@ export default function Products() {
   return (
     <>
         <div className="flex justify-between">
-            <h2 className="text-4xl font-black text-slate-500">Productos</h2>
+            <h2 className="text-2xl lg:text-4xl font-black text-slate-500">Productos</h2>
             <Link
                 to='productos/nuevo'
                 className="rounded-md bg-indigo-600 p-3 text-sm font-bold text-white shadow-sm hover:bg-indigo-500"
@@ -30,7 +30,7 @@ export default function Products() {
                 Agregar Producto
             </Link>
         </div>
-        <div className="p-2">
+        <div className="p-2 overflow-auto">
           <table className="w-full mt-5 table-auto">
             <thead className="bg-slate-800 text-white">
                 <tr>
